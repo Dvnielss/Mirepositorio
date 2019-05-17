@@ -136,5 +136,10 @@ dt{
 }
 
 
-
-
+@media screen and (min-width: 400px){
+    .container{
+        width: 100%
+    }
+   
+    
+}
