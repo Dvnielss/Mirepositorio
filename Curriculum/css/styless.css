@@ -8,6 +8,8 @@
 /* ----------------GENERAL---------------*/
 
 body{
+    padding: 0;
+    margin: 0;
   
   font-family: sans-serif; 
 }
@@ -20,7 +22,7 @@ h2 {
 
 aside {
    background-color: #00334E;
-   width:30%;
+   width:28%;
    margin-right: 2%;
    
 }
@@ -40,7 +42,7 @@ aside * {
 
 aside h3 {
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
     text-align: center;
     
 }
@@ -57,7 +59,7 @@ main{
 
 main section h2 {
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
     
 }
 
@@ -119,13 +121,13 @@ color:#E8E8E8
     background-color: #E8E8E8;
 }
 dt{
-    width: 50%;
+    width: 60%;
     float: left;
     color:#E8E8E8;
 
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 500px){
     .main{
         width: 100%
     }
